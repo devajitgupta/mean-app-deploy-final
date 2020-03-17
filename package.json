@@ -4,13 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ng": "ng",
-    "start": "ng build &&  node index.js",
-    //"build": "ng build",
-    //"test": "ng test",
-    //"lint": "ng lint",
-    //"e2e": "ng e2e"
-
+    "start": "ng build &&  node index.js"
   },
   "author": "ajit",
   "license": "ISC",
