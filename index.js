@@ -20,7 +20,7 @@ const userRoutes=require("./routes/user");
 
 
 //connect to database
-mongoose.connect(process.env.DB_CONNECT,{ useNewUrlParser: true,useUnifiedTopology: true},()=>
+mongoose.connect(process.env.DB_CONNECT,{ useNewUrlParser: false,useUnifiedTopology: false},()=>
 	console.log("connected to DB"));
 //====== middleware
 app.use(bodyParser.urlencoded({extended:false}));
