@@ -33,7 +33,7 @@ app.use('/api/listings', listingRoutes);
 app.use("/api/user", userRoutes);
 app.use(express.json());
 
-app.listen(3000,function(req,res){
-	console.log("server is runing on port 3000");
+app.listen(port,function(req,res){
+	console.log("server is running");
 })
 
