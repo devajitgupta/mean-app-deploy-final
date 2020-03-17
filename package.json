@@ -6,10 +6,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng build &&  node index.js",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    //"build": "ng build",
+    //"test": "ng test",
+    //"lint": "ng lint",
+    //"e2e": "ng e2e"
 
   },
   "author": "ajit",
