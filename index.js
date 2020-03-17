@@ -23,7 +23,7 @@ const userRoutes=require("./routes/user");
 mongoose.connect(process.env.DB_CONNECT,{ useNewUrlParser: false,useUnifiedTopology: false},()=>
 	console.log("connected to DB"));
 //====== middleware
-app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 app.use(cors());
 
